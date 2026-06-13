@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to LifePilot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Clarity</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Product <span>▼</span></a></li>
+                <li><a href="#">Solutions <span>▼</span></a></li>
+                <li><a href="#">Resources <span>▼</span></a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="user-profile">
+                <div class="avatar">G</div>
+                <span>Guest User</span>
+            </div>
+            <a href="#" class="btn-outline">Open Web</a>
+            <a href="#" class="btn-primary">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hi, Productivity Seeker</p>
+            <h1 class="main-title">Welcome to <span>Clarity</span></h1>
+
+            <a href="../Login/index.html" class="btn-gradient">
+                Go to Planner
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+            <p class="sub-action">Free forever for personal use</p>
+        </div>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Experience popular features</h2>
+
+            <div class="feature-cards">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <span>Weekly Management</span>
+                    </div>
+                    <div class="card-body mockup-1">
+                        <div class="mock-stats">
+                            <div>
+                                <small>Total goals</small>
+                                <strong>12</strong>
+                            </div>
+                            <div>
+                                <small>To-do tasks</small>
+                                <strong>48</strong>
+                            </div>
+                        </div>
+                        <div class="mock-chart">
+                            <div class="circle-chart">75%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        <span>Goal Priority</span>
+                    </div>
+                    <div class="card-body mockup-2">
+                        <div class="mock-list">
+                            <div class="mock-item priority"><span></span> Priority Task</div>
+                            <div class="mock-item priority"><span></span> Urgent Goal</div>
+                            <div class="mock-item regular"><span></span> Regular Task</div>
+                            <div class="mock-item regular"><span></span> Read Book</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                            <path d="M3 3v18h18"></path>
+                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+                        </svg>
+                        <span>Progress Analytics</span>
+                    </div>
+                    <div class="card-body mockup-3">
+                        <div class="mock-bars">
+                            <div class="bar-col">
+                                <div class="fill" style="height: 100%"></div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="fill" style="height: 70%"></div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="fill" style="height: 40%"></div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="fill" style="height: 90%"></div>
+                            </div>
+                            <div class="bar-col">
+                                <div class="fill" style="height: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Check if user has existing data to personalize greeting
+        document.addEventListener('DOMContentLoaded', () => {
+            const userName = localStorage.getItem('lifepilot_user_name');
+            if (userName) {
+                document.querySelector('.greeting').innerText = `Hi, ${userName}`;
+
+                const profileSpan = document.querySelector('.user-profile span');
+                if (profileSpan) profileSpan.innerText = userName;
+
+                const avatar = document.querySelector('.user-profile .avatar');
+                if (avatar) avatar.innerText = userName.charAt(0).toUpperCase();
+            } else {
+                const data = localStorage.getItem('clarity_planner_data');
+                if (data) {
+                    document.querySelector('.greeting').innerText = "Welcome back, Productivity Seeker";
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

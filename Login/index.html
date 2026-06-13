@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Lifepilot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <!-- Screen 1: Name Input -->
+    <div id="screen-name">
+
+
+        <main>
+            <div class="content">
+                <div class="title-container">
+                    <h1 class="welcome-text">Welcome to LifePilot</h1>
+                    <h2 class="question-text">What is your name?</h2>
+                </div>
+
+                <form id="name-form" class="input-container">
+                    <input type="text" id="user-name" placeholder="Enter your name to begin..." required
+                        autocomplete="off">
+                    <button type="submit" class="btn-submit" aria-label="Submit name">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- Screen 2: Role Selection -->
+    <div id="screen-selection" class="hidden">
+        <div class="split-layout">
+            <!-- Left Panel -->
+            <div class="left-panel">
+                <div class="logo" style="margin-bottom: auto; color: #111827;">
+                    <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 22H22L12 2Z" fill="#3B82F6" />
+                    </svg> -->
+                    <h2>LifePilot</h2>
+                </div>
+
+                <div class="left-content">
+                    <div class="icon-greeting">👋</div>
+                    <h2 id="greeting-title">Welcome to LifePilot...</h2>
+
+                    <div class="plan-info">
+                        <p class="plan-title"><strong>Free plan!</strong> No credit card required</p>
+                        <p class="plan-desc">Ideal for individuals and small teams exploring LifePilot</p>
+                    </div>
+
+                    <ul class="features-list">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Up to 20 users
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            18 months of message history
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Secure and customizable
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            AI language translation
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            100 GB storage
+                        </li>
+                    </ul>
+
+                    <div class="apps-tray">
+                        <div class="app-icon"><span style="background: #E0E7FF; color: #4F46E5;">💬</span></div>
+                        <div class="app-icon"><span style="background: #FEF3C7; color: #D97706;">📧</span></div>
+                        <div class="app-icon"><span style="background: #FFEDD5; color: #EA580C;">✅</span></div>
+                        <div class="app-icon"><span style="background: #DBEAFE; color: #2563EB;">📄</span></div>
+                        <div class="app-icon"><span style="background: #F3E8FF; color: #9333EA;">📅</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="right-panel">
+                <div class="right-content">
+                    <h2 class="greeting-name">How would you like to use LifePilot?</h2>
+                    <p class="subtitle">We'll suggest features and resources personalized to you.</p>
+
+                    <div class="options-container">
+                        <label class="option-card">
+                            <input type="radio" name="user_role" value="student">
+                            <div class="card-content">
+                                <span class="icon">🎒</span>
+                                <span class="text">Student</span>
+                            </div>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="user_role" value="university">
+                            <div class="card-content">
+                                <span class="icon">🎓</span>
+                                <span class="text">University Student</span>
+                            </div>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="user_role" value="professional">
+                            <div class="card-content">
+                                <span class="icon">💼</span>
+                                <span class="text">Professional </span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <button id="btn-get-started" class="btn-get-started" disabled>Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WebGL & Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

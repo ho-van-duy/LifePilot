@@ -1,0 +1,47 @@
+:root {
+    color-scheme: dark;
+    /* Dark Theme (Default) - Inspired by the baseball UI */
+    --bg-primary: #0a0c10;
+    --bg-secondary: #12161c;
+    --bg-glass: rgba(18, 22, 28, 0.7);
+    --bg-glass-hover: rgba(28, 34, 43, 0.8);
+    
+    --text-primary: #ffffff;
+    --text-secondary: #a1b0c0;
+    --text-muted: #5e6c7e;
+    
+    --accent-primary: #45e5d3; /* Vibrant Cyan */
+    --accent-hover: #2cb8a8;
+    
+    --priority-color: #ef4444; 
+    --regular-color: #3b82f6; 
+    
+    --success: #10b981;
+    --danger: #ef4444;
+    --border-color: rgba(69, 229, 211, 0.2); /* Cyan tinted border */
+    --border-highlight: rgba(69, 229, 211, 0.5);
+    
+    --font-main: 'Inter', sans-serif;
+    
+    --shadow-glass: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+    --transition: all 0.2s ease;
+}
+
+body.light-theme {
+    color-scheme: light;
+    --bg-primary: #f4f6f8;
+    --bg-secondary: #ffffff;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --bg-glass-hover: rgba(240, 244, 248, 0.9);
+    
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    
+    --accent-primary: #0284c7; /* Deeper Cyan/Blue for light theme contrast */
+    --accent-hover: #0369a1;
+    
+    --border-color: rgba(0, 0, 0, 0.1);
+    --border-highlight: rgba(0, 0, 0, 0.2);
+    --shadow-glass: 0 4px 16px 0 rgba(0, 0, 0, 0.05);
+}
