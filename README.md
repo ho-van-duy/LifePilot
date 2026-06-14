@@ -1,4 +1,4 @@
-# Life PiLot 🎯
+# Life Pilot 🎯
 
 > A modern, fullstack web application for tracking weekly goals, daily tasks, and personal reflections. Inspired by high-productivity weekly planners!
 
@@ -34,11 +34,16 @@ Contains the server-side code structure (Node.js/Express) indicating how the RES
 ## 🚀 Getting Started
 
 
-📬 Contact
+📬 Contact with us
 Tran Nguyen Gia Huy
-- Nick Name : Jerry
+- Nick Name: Jerry
 - Email: giahuyy20102007@gmail.com
 - GitHub: @JerryHuyTran
-- Live Demo: https://jerryhuytran.github.io/LifePilot/Login/index.html
-  
-Made with curiosity by Jerry
+
+Ho Van Duy
+- Nick Name: Van Duy
+- Email: v.duy00@gmail.com
+- GitHub: @ho-van-duy
+
+Link Demo: https://ho-van-duy.github.io/LifePilot/
+Made with curiosity by Jerry and Van Duy
