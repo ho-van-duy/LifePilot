@@ -1,192 +1,44 @@
-# LifePilot
+# Life PiLot 🎯
 
-<div align="center">
+> A modern, fullstack web application for tracking weekly goals, daily tasks, and personal reflections. Inspired by high-productivity weekly planners!
 
-### Plan Smarter. Grow Consistently. Become Your Best Self.
+## 👥 Team & Roles
 
-An AI-powered personal growth platform that transforms goals into structured roadmaps, daily actions, and measurable progress.
+This is a collaborative 2-person group project.
+* **Jerry (Tran Nguyen Gia Huy)**: Frontend Developer (Responsible for UI/UX design, HTML, CSS, JavaScript, and Chart.js integration).
+* **Ho Van Duy**: Backend Developer (Responsible for Node.js/Express architecture and API setup).
 
-</div>
+## 🗂️ Project Structure
 
----
+This project follows a standard fullstack architecture:
 
-## Overview
+### `frontend/`
+Contains the client-side code (HTML, CSS, JavaScript). It uses pure, modern web standards to maximize performance and flexibility without bulky frameworks, following best aesthetic practices.
+* **Styling:** Utilizes CSS variables, glassmorphism, and smooth transitions for a premium dark mode UI.
+* **Data Persistence:** Uses `localStorage` to save your weekly plans directly in your browser.
+* **Charts:** Integrates Chart.js via CDN for beautiful data visualization.
+* **To run:** Simply double-click `frontend/index.html` to open it in any modern browser!
 
-LifePilot is a personal development platform designed to help people turn ambitious goals into achievable daily actions.
+### `backend/`
+Contains the server-side code structure (Node.js/Express) indicating how the RESTful API would be implemented to handle a true remote database (like MongoDB or PostgreSQL).
+* **To run:** You need Node.js installed. Navigate to the `backend` folder, run `npm install`, then run `npm run dev`.
 
-Unlike traditional chatbots that only provide answers, LifePilot acts as an AI Coach that guides users through their personal growth journey by generating roadmaps, tracking progress, and adapting plans based on real-world performance.
+## ✨ Features
 
-Whether a user wants to:
+* **Weekly Overview:** Define Priority and Regular goals for the week.
+* **Weekly Reflection:** Answer core questions to improve yourself every week.
+* **Daily View:** Break down your days (Monday - Sunday) into priority and regular tasks.
+* **Dynamic Charts:** See your completion percentage visually with a weekly Donut Chart and daily Bar Charts!
+* **Notes:** Add small notes for each day.
 
-* Become a Software Engineer
-* Learn Japanese
-* Build better habits
-* Improve productivity
-* Lose weight
-* Achieve long-term career goals
+## 🚀 Getting Started
 
-LifePilot helps bridge the gap between their current state and desired future.
 
----
-
-## Problem
-
-Many people struggle with:
-
-* Setting realistic goals
-* Building effective plans
-* Staying disciplined
-* Tracking progress consistently
-* Knowing what to do next
-
-Current tools such as AI chatbots, note-taking apps, and task managers often solve only part of the problem.
-
-LifePilot aims to combine planning, execution, tracking, and AI guidance into one integrated system.
-
----
-
-## Solution
-
-LifePilot provides:
-
-### Goal Analysis
-
-Understand the user's current situation, schedule, strengths, and challenges.
-
-### Personalized Roadmaps
-
-Generate customized plans based on the user's objectives and available time.
-
-### Task Generation
-
-Break large goals into manageable daily and weekly actions.
-
-### Progress Tracking
-
-Monitor consistency, performance, and completion rates.
-
-### Adaptive Coaching
-
-Continuously adjust plans when circumstances change.
-
----
-
-## Core Features
-
-### AI Goal Planner
-
-Generate structured roadmaps for personal, academic, and professional goals.
-
-### Task Management
-
-Convert long-term goals into actionable daily tasks.
-
-### Habit Tracking
-
-Build consistency through measurable habits and routines.
-
-### Progress Analytics
-
-Visualize growth and performance over time.
-
-### Personal Reflection
-
-Encourage self-awareness through periodic reviews and feedback.
-
-### AI Coach
-
-Receive guidance, recommendations, and adaptive planning support.
-
----
-
-## Technology Stack
-
-### Frontend
-
-* React
-* Next.js
-* Tailwind CSS
-
-### Backend
-
-* Node.js
-* NestJS
-
-### Database
-
-* PostgreSQL
-* Prisma ORM
-
-### AI Layer
-
-* OpenAI API
-* Prompt Engineering
-* Retrieval-Augmented Generation (RAG)
-
-### Deployment
-
-* Docker
-* Cloud Infrastructure
-
----
-
-## Development Roadmap
-
-### Phase 1 — Product Vision
-
-* Define project scope
-* Design user experience
-* Build system architecture
-
-### Phase 2 — Learning & Preparation
-
-* Study frontend development
-* Study backend development
-* Learn database design
-* Learn AI integration
-
-### Phase 3 — MVP Development
-
-* User authentication
-* Goal management
-* Task generation
-* Progress tracking
-* AI roadmap generation
-
-### Phase 4 — Intelligent Coaching
-
-* Adaptive planning
-* Habit recommendations
-* Personalized AI feedback
-
----
-
-## Long-Term Vision
-
-LifePilot is not just a productivity tool.
-
-Our vision is to build a Personal Growth Operating System where users can continuously improve themselves through structured planning, intelligent guidance, and measurable progress.
-
-We want LifePilot to become the platform people use not only to organize their lives, but to transform them.
-
----
-
-## Contributing
-
-We welcome contributors who are interested in:
-
-* Frontend Development
-* Backend Development
-* UI/UX Design
-* AI Engineering
-* Product Design
-
-Feel free to open an issue, submit a pull request, or join the project discussion.
-
----
-
-## Motto
-
-> "The future is not built in a day. It is built through consistent actions every day."
-
-**LifePilot — Your Personal AI Coach for Growth, Discipline, and Long-Term Success.**
+📬 Contact
+Tran Nguyen Gia Huy
+- Nick Name : Jerry
+- Email: giahuyy20102007@gmail.com
+- GitHub: @JerryHuyTran
+- Live Demo: https://jerryhuytran.github.io/LifePilot/Login/index.html
+  
+Made with curiosity by Jerry
