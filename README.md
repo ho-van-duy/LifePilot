@@ -35,12 +35,13 @@ Contains the server-side code structure (Node.js/Express) indicating how the RES
 
 
 📬 Contact with us
-Tran Nguyen Gia Huy
+
+**Tran Nguyen Gia Huy**
 - Nick Name: Jerry
 - Email: giahuyy20102007@gmail.com
 - GitHub: @JerryHuyTran
 
-Ho Van Duy
+**Ho Van Duy**
 - Nick Name: Van Duy
 - Email: v.duy00@gmail.com
 - GitHub: @ho-van-duy
